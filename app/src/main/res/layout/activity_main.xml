@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.zhaoweihao.fakewechatmoment.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cat"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+</RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="赵三岁"
+                android:textColor="#586c96"
+                android:layout_marginBottom="5dp"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="大佬们，该我集一百个赞了\n麻烦路过的大佬点一下赞，谢谢"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#ECECEC"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/meat"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="免单|0元吃三文鱼、鳗鱼饭、焗..."
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017年12月5日 19:11"
+                    android:textSize="13sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="1dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除"
+                    android:textSize="13sp"
+                    android:textColor="#576B95"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageView
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/comment"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="992px"
+        android:layout_height="2000px"
+        android:src="@drawable/photo"
+        />
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:src="@drawable/down2"
+        android:background="#F5F5F5"
+        />
+</FrameLayout>
